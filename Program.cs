@@ -31,6 +31,13 @@ namespace Conditionals_Jackson_Lydia
                 Console.WriteLine($"{myWholeNum} is an odd number.");
             }
 
+            int num1 = 6;
+            int num2 = 99;
+
+            int firstMax = Math.Max(myWholeNum, num1);
+            int max = Math.Max(firstMax, num2);
+
+            Console.WriteLine($"The maximum number of {myWholeNum}, {num1}, and {num2} is {max}.");
 
         }
     }
