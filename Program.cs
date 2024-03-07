@@ -11,7 +11,7 @@ namespace Conditionals_Jackson_Lydia
             Console.WriteLine("Enter a whole number.");
             int myWholeNum = Convert.ToInt32(Console.ReadLine());
 
-            // checks if positive or negative
+            // checks if positive or negative and comments it
             if (myWholeNum >= 0) 
             {
                 Console.WriteLine($"{myWholeNum} is a positive number.");
@@ -21,7 +21,7 @@ namespace Conditionals_Jackson_Lydia
                 Console.WriteLine($"{myWholeNum} is a negative number.");
             }
 
-            // checks if even or odd
+            // checks if even or odd and comments it
             if (myWholeNum % 2 == 0)
             {
                 Console.WriteLine($"{myWholeNum} is an even number.");
