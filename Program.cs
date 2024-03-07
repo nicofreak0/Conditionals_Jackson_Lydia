@@ -22,7 +22,11 @@ namespace Conditionals_Jackson_Lydia
             }
 
             // checks if even or odd
-            if (myWholeNum % 2 == 0) 
+            if (myWholeNum % 2 == 0)
+            {
+                Console.WriteLine($"{myWholeNum} is an even number.");
+            }
+            else
             {
                 Console.WriteLine($"{myWholeNum} is an odd number.");
             }
